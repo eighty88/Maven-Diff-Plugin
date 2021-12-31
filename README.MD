@@ -18,7 +18,7 @@ pom.xml
         <version>1.0-SNAPSHOT</version>
         
         <configuration>
-            <root>${basedir}/def</root>
+            <root>${basedir}/root</root>
             <target>${basedir}/src</target>
             <patches>${basedir}/patches</patches>
         </configuration>
