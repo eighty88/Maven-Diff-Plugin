@@ -55,7 +55,7 @@ public class MakePatchMojo extends MavenPatcher {
                         return;
                     }
                 }
-                Files.write(new File(outputPath, name + ".patch").toPath(), out.toString().getBytes(), StandardOpenOption.CREATE);
+                Files.write(new File(outputPath, name + ".patch").toPath(), out.toString().replace("\\ No newline at end of file", "").getBytes(), StandardOpenOption.CREATE);
             }
         } catch (IOException e) {
             e.printStackTrace();
