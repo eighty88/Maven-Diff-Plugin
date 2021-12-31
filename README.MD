@@ -1,6 +1,6 @@
 # Maven Patcher
 
-Make diff file (.patch)
+Make / Apply diff file (.patch)
 
 ## Usage
 
